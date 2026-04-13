@@ -1,4 +1,7 @@
 import React from "react";
+import { FaHome } from "react-icons/fa";
+import { ImStatsBars } from "react-icons/im";
+import { IoTimerOutline } from "react-icons/io5";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
@@ -10,43 +13,46 @@ const Navbar = () => {
             KeenKeeper
           </a>
 
-          <div className="flex flex-wrap justify-center md:justify-end items-center gap-2 mt-3 md:mt-0">
+          <div className="flex flex-wrap justify-center md:justify-end items-center gap-1 mt-3 md:mt-0">
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `px-4 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
+                `px-4 py-2 rounded text-sm transition-colors cursor-pointer flex gap-1 items-center ${
                   isActive
-                    ? "bg-gray-900 text-white"
+                    ? "bg-[#244d3f] text-white"
                     : "text-gray-500 hover:bg-gray-100 hover:text-gray-900"
                 }`
               }
             >
+              <FaHome className="inline" />
               Home
             </NavLink>
 
             <NavLink
               to="/timeline"
               className={({ isActive }) =>
-                `px-4 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
+                `px-4 py-2 rounded text-sm transition-colors cursor-pointer flex gap-1 items-center ${
                   isActive
-                    ? "bg-gray-900 text-white"
+                    ? "bg-[#244d3f] text-white"
                     : "text-gray-500 hover:bg-gray-100 hover:text-gray-900"
                 }`
               }
             >
+              <IoTimerOutline className="inline" />
               Timeline
             </NavLink>
 
             <NavLink
               to="/stats"
               className={({ isActive }) =>
-                `px-4 py-2 rounded-lg text-sm transition-colors cursor-pointer ${
+                `px-4 py-2 rounded text-sm transition-colors cursor-pointer flex gap-1 items-center ${
                   isActive
-                    ? "bg-gray-900 text-white"
+                    ? "bg-[#244d3f] text-white"
                     : "text-gray-500 hover:bg-gray-100 hover:text-gray-900"
                 }`
               }
             >
+              <ImStatsBars className="inline" />
               Stats
             </NavLink>
           </div>

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Hero from "../componants/Hero";
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
-  )
-}
+  <Hero />
+)
+};
 
-export default Homepage
+export default Homepage;
