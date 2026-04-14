@@ -1,0 +1,110 @@
+[
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "picture": "https://i.ibb.co.com/B57HFQjS/alicesmith.jpg",
+    "email": "alice@example.com",
+    "days_since_contact": 5,
+    "status": "active",
+    "tags": ["work", "manager"],
+    "bio": "Project manager at previous company.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Abdelrahim Ahmed",
+    "picture": "https://i.ibb.co.com/tTnyLcvP/Abdelrahim-Ahmed-Photo.jpg",
+    "email": "rahim@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["school", "friend"],
+    "bio": "School friend, lives nearby.",
+    "goal": 15,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/23TmCWCf/david-kim.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["mentor"],
+    "bio": "Career mentor from internship.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 5,
+    "name": "Random User",
+    "picture": "https://i.ibb.co.com/6R8QbtGw/images.jpg",
+    "email": "user@example.com",
+    "days_since_contact": 10,
+    "status": "active",
+    "tags": ["misc"],
+    "bio": "General contact.",
+    "goal": 8,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 6,
+    "name": "Eva Victor",
+    "picture": "https://i.ibb.co.com/GQXpMWGX/LEAD-RS-Eva-Victor-Select1.webp",
+    "email": "eva@example.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": ["colleague"],
+    "bio": "Works in creative team.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Lakmira",
+    "picture": "https://i.ibb.co.com/1cpQmGW/lisa-lakmira.webp",
+    "email": "lisa@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["friend"],
+    "bio": "Met during a workshop.",
+    "goal": 12,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 8,
+    "name": "Max David",
+    "picture": "https://i.ibb.co.com/YBTqSvx7/max-david-800x600.jpg",
+    "email": "max@example.com",
+    "days_since_contact": 6,
+    "status": "active",
+    "tags": ["gym"],
+    "bio": "Gym buddy.",
+    "goal": 9,
+    "next_due_date": "2025-07-27"
+  },
+  {
+    "id": 9,
+    "name": "Michael Lee",
+    "picture": "https://i.ibb.co.com/gMCpBh1g/alex.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["client"],
+    "bio": "Important business client.",
+    "goal": 20,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 10,
+    "name": "Tanvir Hasan",
+    "picture": "https://i.ibb.co.com/Cph3kJsP/Mr-Tanvir-Hasan.jpg",
+    "email": "tanvir@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["college"],
+    "bio": "College group mate.",
+    "goal": 14,
+    "next_due_date": "2025-07-17"
+  }
+]
