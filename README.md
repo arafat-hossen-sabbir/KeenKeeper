@@ -133,7 +133,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://keen-keeper-app.netlify.app](http://keen-keeper-app.netlify.app) in your browser.
 
 ---
 
